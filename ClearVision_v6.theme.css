@@ -40,7 +40,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://i.seadn.io/gae/LtghHwGalTmiFKm15Mge6gzTfo22S2yVwheT6xAKE7yO000vwK4Ijv-VJlPsa8nMlQpPy58CKduK400D_gwI6ica-7T-1Y1KLwlL?auto=format&dpr=1&w=1000); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -77,7 +77,7 @@
   --backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(--background-invert)] */
   --backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(--background-grayscale)] */
   --backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(--background-sepia)] */
-  --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
+ 
 
   /* USER POPOUT BACKGROUND */
   --user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
@@ -91,7 +91,7 @@
   --user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(--background-invert)] */
   --user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
   --user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
-  --user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
+  
   --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
 
   /* USER MODAL BACKGROUND */
@@ -106,7 +106,7 @@
   --user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(--background-invert)] */
   --user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
   --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
-  --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+ 
 
   /* THEME BD COLORS */
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
